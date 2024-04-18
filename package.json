@@ -1,0 +1,17 @@
+{
+  "name": "lemon",
+  "module": "src/index.ts",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@lyingnet/logger": "file:./packages/@lyingnet/logger"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
