@@ -6,7 +6,9 @@
     "packages/*"
   ],
   "dependencies": {
-    "@lyingnet/logger": "file:./packages/@lyingnet/logger"
+    "@lyingnet/logger": "file:./packages/@lyingnet/logger",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@types/bun": "latest"
